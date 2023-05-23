@@ -9,6 +9,11 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
+    @IBOutlet weak var imageLabel: UIImageView!
+    @IBOutlet weak var emailAddress: UILabel!
+    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var firstName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
